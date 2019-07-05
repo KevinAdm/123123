@@ -1,1 +1,29 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+<title>Ejercicio calculadora</title>
+</head>
+<body bgcolor="white red">
+<form action="Proceso calculadora.php" method="post">
+<center>
+ <table border="3" width=300>
 
+ <caption> Debe ingresar 2 numeros, elegir la opcion de operacion a realizar y luego dar click en el boton Enviar  </caption>
+ <tr bgcolor="sky blue"><th colspan=2><h1>Calculadora<h1></th></tr>
+ <tr ><td><center>Numero 1 </center></td><td> <input type="text" name="numero1" size="10"></td></tr>
+ <tr ><td><center>Numero 2 </center></td><td> <input type="text" name="numero2" size="10"></td></tr>
+ <tr ><td rowspan=4><center>Calcular </center></td><td> <input type="radio" name="operacion" value="S"> Sumar</td></tr>
+ <tr ><td> <input type="radio" name="operacion" value="R"> Restar</td></tr>
+ <tr ><td> <input type="radio" name="operacion" value="M"> Multiplicar</td></tr>
+ <tr ><td> <input type="radio" name="operacion" value="D"> Dividir</td></tr>
+<tr >
+<td><center><input type="submit" name="Enviar" value="Enviar"></center></td>
+<td><center><input type="reset" name="cancelar" value="Cancelar"></center></td>
+</tr>
+ </center>
+
+
+
+
+</body>
+</html>
